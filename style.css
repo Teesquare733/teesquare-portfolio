@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(4, 3, 20 );
+    opacity: 90%;
+    color: white;
+}
+header{
+    margin: 20px 20px 60px 20px;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+#about{
+    margin: 0px 20px 90px 20px;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#tt{
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-weight: bold;
+}
+img{
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+}
+.projects-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 20px 90px 20px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0 20px 0 20px;
+}
+#get{
+    text-align: center;
+    }
+
+
+
+/* Responsiveness starts here */
+@media(max-width : 600px){
+    .projects-container{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+}
+.projects-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 0 20px 90px 20px;
+}
+#others{
+    display: flex;
+    flex-direction: column;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 35px 0 35px;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 20px;
+}
+img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+header{
+    position: relative;
+}
+
+#about{
+    margin: 0px 20px 90px 20px;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+}
+
+/* Responsiveness ends here */
+
+
+
+button{
+    color: rgb(230, 87, 43);
+    background-color: rgb(16, 231, 203);
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#others{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    text-align: center;
+}
+.card2{
+    background-color: rgba(31, 22, 78, 0.781);
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
